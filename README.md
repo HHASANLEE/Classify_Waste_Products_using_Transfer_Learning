@@ -4,7 +4,7 @@ This project uses transfer learning with the VGG16 model to classify different t
 ## Overview
 We use the VGG16 model, pre-trained on the ImageNet dataset, to build a classifier that recognizes six categories of waste. By reusing this model, we reduce training time while still achieving good performance.
 
-🧠 Technologies Used
+## Technologies Used
 Python 🐍
 
 TensorFlow & Keras 🧪
@@ -15,7 +15,7 @@ Google Colab 💻
 
 NumPy, Matplotlib, Pandas 📊
 
-📁 Dataset
+## Dataset
 The dataset contains images labeled and stored in folders:
 
 Cardboard
@@ -32,7 +32,7 @@ Trash
 
 The images are divided into training and testing sets.
 
-🚀 How It Works
+## How It Works
 Load and Preprocess Data
 
 Images are resized to 224x224 (VGG16 input size).
@@ -59,12 +59,12 @@ The model is tested on unseen images.
 
 Predictions are compared with actual labels.
 
-📊 Results
+## Results
 The model performs well in identifying waste types.
 
 This approach is useful for automating waste sorting systems.
 
-📌 How to Run
+## How to Run
 Open the notebook: Classify_Waste_Products_using_Transfer_Learning.ipynb in Google Colab.
 
 Upload your dataset (organized into folders by class).
