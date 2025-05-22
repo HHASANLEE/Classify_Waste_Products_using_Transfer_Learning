@@ -5,15 +5,15 @@ This project uses transfer learning with the VGG16 model to classify different t
 We use the VGG16 model, pre-trained on the ImageNet dataset, to build a classifier that recognizes six categories of waste. By reusing this model, we reduce training time while still achieving good performance.
 
 ## Technologies Used
-Python 🐍
+Python 
 
-TensorFlow & Keras 🧪
+TensorFlow & Keras 
 
 Transfer Learning (VGG16)
 
-Google Colab 💻
+Google Colab 
 
-NumPy, Matplotlib, Pandas 📊
+NumPy, Matplotlib, Pandas 
 
 ## Dataset
 The dataset contains images labeled and stored in folders:
